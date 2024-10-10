@@ -13,8 +13,8 @@ This project uses a Convolutional Neural Network (CNN) to detect deepfake images
 
 1. Clone this repository:
 
-git clone https://github.com/sia1408/deepfake-detection-project.git
-cd deepfake-detection
+git clone https://github.com/sia1408/Deepfake-Detection-CNN.git
+cd Deepfake-Detection-CNN
 
 2. Install dependencies:
 
