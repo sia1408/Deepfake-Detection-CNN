@@ -2,7 +2,7 @@ import os
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 def download_data():
-    os.environ['KAGGLE_CONFIG_DIR'] = 'config/' #path to my kaggle api file
+    os.environ['KAGGLE_CONFIG_DIR'] = os.path.join(os.getcwd(), 'config')
     api = KaggleApi()
     api.authenticate()
 
